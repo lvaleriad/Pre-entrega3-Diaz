@@ -1,0 +1,49 @@
+body{
+    background-color:   #A016DA;
+    @media(min-width:500px){
+        background-color: #566573;
+    }
+    @media (min-width:768px){
+        background-color:#F2E8DF;
+    }
+    @media(min-width:1024px){
+        background-color:  #A016DA;
+    }
+}
+
+ul.dropdown-menu {
+    background-color: #D09FF8;
+    @media(min-width:500px){
+        background-color: #bdbfbf;
+    }
+    @media (min-width:768px){
+        background-color: #ffffeb;
+    }
+    @media(min-width:1024px){
+        background-color: #D09FF8;
+    }
+}
+.card{
+    background-color:#D09FF8;
+    @media(min-width:500px){
+        background-color: #6580A2;
+    }
+    @media (min-width:768px){
+        background-color:#ecd6c0;
+    }
+    @media(min-width:1024px){
+        background-color:#D09FF8;
+    }
+}
+span{
+    color: white;
+    @media(min-width:500px){
+        color: white;
+    }
+    @media (min-width:768px){
+        color: #8C544F;
+    }
+    @media(min-width:1024px){
+        color: white;
+    }
+}

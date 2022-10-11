@@ -1,0 +1,16 @@
+.contenido{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 20px;
+}
+.titulo{
+    @extend .contenido
+}
+
+@mixin border ($left, $right){
+    border-top-left-radius: $left;
+    border-bottom-right-radius: $right;    
+}
+.salud{
+    @include border(80px,40px)
+}
