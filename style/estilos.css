@@ -1,0 +1,512 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #A016DA;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.titulo {
+  color: black;
+  padding: 50px;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: 30px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 20px;
+  font-style: italic;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 0;
+  margin-top: 30px;
+  width: 100%;
+  bottom: 0%;
+}
+
+.image1 {
+  grid-area: image1;
+}
+
+.image2 {
+  grid-area: image2;
+}
+
+.image3 {
+  grid-area: image3;
+}
+
+.definicion {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.definicion-b {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  margin: 5%;
+}
+
+body {
+  background-color: yellow;
+}
+@media (min-width: 500px) {
+  body {
+    background-color: #566573;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: #F2E8DF;
+  }
+}
+@media (min-width: 1024px) {
+  body {
+    background-color: yellow;
+  }
+}
+
+ul.dropdown-menu {
+  background-color: #D09FF8;
+}
+@media (min-width: 500px) {
+  ul.dropdown-menu {
+    background-color: #bdbfbf;
+  }
+}
+@media (min-width: 768px) {
+  ul.dropdown-menu {
+    background-color: #ffffeb;
+  }
+}
+@media (min-width: 1024px) {
+  ul.dropdown-menu {
+    background-color: #D09FF8;
+  }
+}
+
+.card {
+  background-color: #D09FF8;
+}
+@media (min-width: 500px) {
+  .card {
+    background-color: #6580A2;
+  }
+}
+@media (min-width: 768px) {
+  .card {
+    background-color: #ecd6c0;
+  }
+}
+@media (min-width: 1024px) {
+  .card {
+    background-color: #D09FF8;
+  }
+}
+
+span {
+  color: white;
+}
+@media (min-width: 500px) {
+  span {
+    color: white;
+  }
+}
+@media (min-width: 768px) {
+  span {
+    color: #8C544F;
+  }
+}
+@media (min-width: 1024px) {
+  span {
+    color: white;
+  }
+}
+
+.contenido, .titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  letter-spacing: 20px;
+}
+
+.salud {
+  border-top-left-radius: 80px;
+  border-bottom-right-radius: 40px;
+}
+
+.black {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 30px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.comunidad {
+  margin-bottom: 15%;
+}
+
+ul.dropdown-menu {
+  color: black;
+  font-weight: bolder;
+}
+
+.youtube {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+span {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.salud {
+  grid-area: salud;
+  align-self: stretch;
+  font-size: 30px;
+  color: black;
+  border: PowderBlue 5px double;
+}
+
+.diversion {
+  grid-area: diversion;
+  grid-auto-flow: column;
+  font-size: 30px;
+  color: black;
+  border: PowderBlue 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.performance {
+  grid-area: performance;
+  font-size: 30px;
+  color: black;
+  border: PowderBlue 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.motiva {
+  grid-area: motiva;
+  place-self: center stretch;
+  font-size: 30px;
+  color: black;
+}
+
+.crossfit {
+  grid-area: crossfit;
+  padding-bottom: 5%;
+  font-size: 30px;
+  color: black;
+}
+
+.formulario {
+  display: flex;
+  color: black;
+  align-content: right;
+}
+
+.button {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  justify-items: center;
+}
+
+.formulario {
+  display: grid;
+  justify-content: flex-start;
+  height: 50%;
+}
+
+.contacto-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  -moz-column-gap: 10%;
+       column-gap: 10%;
+  grid-auto-flow: row dense;
+  grid-template-areas: "direccion formulario";
+}
+
+.direccion {
+  grid-area: direccion;
+  margin-left: 20px;
+  text-align: center;
+  padding: 5%;
+  font-size: 20px;
+  color: black;
+}
+
+.formulario {
+  grid-area: formulario;
+  align-items: center;
+  font-size: 20px;
+  color: black;
+  margin-right: 5%;
+}
+
+.lista {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+.salon {
+  font-size: 22px;
+  margin-top: 10%;
+  color: black;
+}
+
+.contamos {
+  font-size: 30px;
+  font-weight: bolder;
+  color: black;
+}
+
+.planes {
+  border: PowderBlue 5px double;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: black;
+}
+
+.grid-planes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-area: "planMensual planTrimestral planSemestral PlanAnual";
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  font-size: 23px;
+  text-align: center;
+  padding: 5%;
+}
+
+.mb-33 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 18px;
+}
+
+@media (min-device-width: 320px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 500px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-content: center;
+    align-items: stretch;
+    text-align: center;
+    grid-template-areas: "salud" "diversion" "performance" "image1" "image2" "motiva" "image3" "crossfit";
+  }
+  .image1 img {
+    width: 350px;
+    height: 300px;
+  }
+  .image2 img {
+    width: 350px;
+    height: 300px;
+  }
+  .image3 img {
+    width: 350px;
+    height: 300px;
+  }
+  .contacto-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "direccion" "formulario";
+  }
+  iframe {
+    width: 350px;
+    height: 300px;
+  }
+  .titulo {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .salud {
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  .diversion {
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  .performance {
+    font-size: 25px;
+    margin-bottom: 3%;
+  }
+  .image1 {
+    padding-bottom: 10px;
+  }
+  .motiva {
+    font-size: 25px;
+  }
+  .crossfit {
+    font-size: 25px;
+  }
+  .formulario {
+    margin-bottom: 15%;
+    margin-top: 0%;
+    justify-items: auto;
+    margin-left: 5%;
+  }
+  .titulo-b {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5%;
+    font-weight: bolder;
+    color: black;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row dense;
+  }
+  .grid-planes {
+    grid-template-columns: 1fr;
+    grid-area: "planMensual" "planTrimestral" "planSemestral" "PlanAnual";
+  }
+  .definicion {
+    font-size: 23px;
+    margin: 10px;
+  }
+  .card {
+    color: black;
+  }
+}
+@media (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-areas: "salud diversion" "performance image1" "image2 image3" "motiva motiva" "crossfit crossfit";
+  }
+  .image1 img {
+    width: 300px;
+    height: 300px;
+  }
+  .image2 img {
+    width: 300px;
+    height: 300px;
+  }
+  .image3 img {
+    width: 300px;
+    height: 300px;
+  }
+  iframe {
+    width: 400px;
+    height: 400px;
+  }
+  .formulario {
+    margin-bottom: 15%;
+    justify-content: center;
+    margin-left: 5%;
+  }
+  .titulo-b {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .grid-planes {
+    grid-template-columns: 1fr;
+    grid-area: "planMensual" "planTrimestral" "planSemestral" "PlanAnual";
+  }
+}
+@media (min-width: 1024px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    row-gap: 40px;
+    width: 100%;
+    grid-auto-flow: row dense;
+    align-content: center;
+    align-items: stretch;
+    text-align: center;
+    padding-top: 3%;
+    grid-template-areas: "salud diversion performance" ". image1 ." "image2 motiva image3" "crossfit crossfit crossfit";
+  }
+  .comunidad {
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+  }
+  iframe {
+    width: 475px;
+    height: 400px;
+  }
+  .formulario {
+    margin-bottom: 5%;
+    justify-content: center;
+    margin-left: 5%;
+    margin-bottom: 10%;
+  }
+  .titulo {
+    font-size: 65px;
+    letter-spacing: 25px;
+  }
+  .titulo-b {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 5%;
+    color: black;
+  }
+  .grid-planes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-area: "planMensual planTrimestral planSemestral PlanAnual";
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+    font-size: 23px;
+    text-align: center;
+    padding: 5%;
+  }
+  .contacto-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "direccion formulario";
+  }
+  .mb-33 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=estilos.css.map */
